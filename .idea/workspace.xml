@@ -4,7 +4,22 @@
     <bookmark url="file://$PROJECT_DIR$/src/Lab2_gr1/Lab2_zad2.scala" line="20" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e32e8bd-bdfa-4c0d-b1b0-f7fe3ca0bd1d" name="Default Changelist" comment="" />
+    <list default="true" id="7e32e8bd-bdfa-4c0d-b1b0-f7fe3ca0bd1d" name="Default Changelist" comment="Corrected food chain">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Cow$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Cow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Grass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Hay.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Lab10_zad1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Lab10_zad1$delayedInit$body.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Lab10_zad1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/PlantFood.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Woolf$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Laby_Zadania/Lab10_gr2/Woolf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab10_gr2/Lab10_zad1.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab10_gr2/Lab10_zad1.scala" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,54 +32,6 @@
       <FILTER>Lab1_gr.*</FILTER>
     </SUITE>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1572073636">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="39" />
-          <entry key="project.open.time.0" value="9" />
-          <entry key="project.open.time.10" value="7" />
-          <entry key="project.open.time.11" value="5" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.7" value="3" />
-          <entry key="project.open.time.8" value="5" />
-          <entry key="project.open.time.9" value="8" />
-          <entry key="project.opened" value="39" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="9" />
-          <entry key="scala" value="180" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="9" />
-          <entry key="Scala" value="202" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Scala Console" value="27" />
-          <entry key="java" value="363" />
-          <entry key="scala" value="31468" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="363" />
-          <entry key="Scala" value="33084" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="Laby_Zadania" />
   </component>
@@ -73,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lab10_gr2/Lab10_zad1.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+            <state relative-caret-position="431">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
@@ -89,6 +56,9 @@
         <option value="Arquillian JUnit Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -147,24 +117,17 @@
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,7 +150,19 @@
               <item name="Laby_Zadania" type="b2602c69:ProjectViewProjectNode" />
               <item name="Laby_Zadania" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab8_gr2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laby_Zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laby_Zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Lab9_gr2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Laby_Zadania" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Laby_Zadania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lab10_gr1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Laby_Zadania" type="b2602c69:ProjectViewProjectNode" />
@@ -199,6 +174,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -207,7 +184,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553685954655" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553692303028" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
@@ -240,7 +217,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Lab10_zad1 (1)">
+  <component name="RunManager" selected="Application.Lab10_zad1">
     <configuration name="Lab10_zad1 (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Lab10_gr1.Lab10_zad1" />
       <module name="Laby_Zadania" />
@@ -315,9 +292,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab10_zad1" />
         <item itemvalue="Application.Lab10_zad1 (1)" />
         <item itemvalue="Application.Lab10_zad2" />
-        <item itemvalue="Application.Lab10_zad1" />
         <item itemvalue="Application.Lab1_zad2" />
         <item itemvalue="Application.Lab1_zad1" />
       </list>
@@ -372,11 +349,13 @@
       <workItem from="1549991713107" duration="9000" />
       <workItem from="1551533931359" duration="253000" />
       <workItem from="1551534340463" duration="26000" />
+      <workItem from="1553685805728" duration="667000" />
+      <workItem from="1553691619342" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150979000" />
+    <option name="totallyTimeSpent" value="152328000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -388,10 +367,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14925373" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15426695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24918033" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -401,7 +380,7 @@
       <window_info id="Learn" order="7" show_stripe_button="false" type="WINDOWED" weight="0.32896176" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.23644252" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989059" weight="0.23522976" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.27272728" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -409,9 +388,10 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32968238" />
       <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32968238" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5010941" side_tool="true" weight="0.32968238" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3275488" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32713348" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.26805252" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -422,6 +402,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.32932165" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17724289" />
@@ -459,8 +440,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Corrected food chain" />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected food chain" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Lab5_gr1/Lab5_zad1.scala">
@@ -555,13 +537,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab8_gr2/scala.scala" />
-    <entry file="file://$PROJECT_DIR$/src/Lab8_gr2/Lab8_zad1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab8_gr1/Lab8_zad2.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -611,47 +586,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab12_gr2/Lab12_zad1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab11_gr1/notatnik.scala" />
     <entry file="file://$PROJECT_DIR$/src/Lab11_gr1/Zad1.scala" />
-    <entry file="file://$PROJECT_DIR$/src/Lab1_gr/Lab1_zad1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab9_gr2/Lab9_zad1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab10_gr2/Lab10_zad2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="66" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab11_gr2/Lab11_zad2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab11_gr2/Lab11_zad1.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -683,17 +623,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab8_gr2/Lab8_zad2.scala">
+    <entry file="file://$PROJECT_DIR$/src/Lab1_gr/Lab1_zad1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab12_gr2/Lab12_zad1.scala" />
+    <entry file="file://$PROJECT_DIR$/src/Lab11_gr2/Lab11_zad2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab10_gr1/Lab10_zad1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="391">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab8_gr2/Lab8_zad1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab8_gr2/Lab8_zad2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab9_gr2/Lab9_zad2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -704,17 +673,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Lab9_gr2/Lab9_zad2.scala">
+    <entry file="file://$PROJECT_DIR$/src/Lab11_gr2/Lab11_zad1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+        <state relative-caret-position="29">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lab10_gr2/Lab10_zad2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lab10_gr2/Lab10_zad1.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="14" selection-start-line="50" selection-start-column="14" selection-end-line="50" selection-end-column="14" />
+        <state relative-caret-position="431">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>

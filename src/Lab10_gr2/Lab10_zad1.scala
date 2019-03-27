@@ -20,24 +20,20 @@ class Grass extends PlantFood{
 abstract class Animal{
 
   val name = "Animal"
-  type AcceptedType <: Food
-  def eat(f:AcceptedType):Unit
+
   override def toString: String = name
 }
 
 class Cow(override val name:String = "") extends Animal with Food {
-  override type AcceptedType = PlantFood
 
-  override def eat(f: PlantFood): Unit = println(s"Cow $name eats $f")
+  def eat[A <: PlantFood](f: A): Unit = println(s"Cow $name eats $f")
 }
 
-class Woolf(override val name: String = "")  extends Animal{
-  override type AcceptedType = Cow
+class Wolf(override val name: String = "")  extends Animal{
 
-  override def eat(f: Cow): Unit = println(s"Wolf $name eats $f")
+
+   def eat[A <: Animal with Food](f: A): Unit = println(s"Wolf $name eats $f")
 }
-
-
 
 
 
@@ -46,12 +42,12 @@ object Lab10_zad1 extends App {
   val h = new Hay
   val c1 = new Cow("ANiceCow")
   val c2 = new Cow("MilkyCow")
-  val w1 = new Woolf("CowEaterBeast")
+  val w1 = new Wolf("CowEaterBeast")
 //  w1.eat(g)// has to fail compilation
-  c1.eat( g );
-  c2.eat( h );
-//  c1.eat( c1 ); // has to fail compilation
-  w1.eat( c1 );
+  c1.eat( g )
+  c2.eat( h )
+//  c1.eat( c1 ) // has to fail compilation
+  w1.eat( c1 )
   // expected output
   // Cow ANiceCow eats Grass
   // Cow MilkyCow eats Hay
